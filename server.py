@@ -12,6 +12,11 @@ ydl_opts = {
     'quiet': True,
     'default_search': 'ytsearch1',
     'extract_flat': False,
+    'extractor_args': {
+        'youtube': {
+            'player_client': ['android', 'web']
+        }
+    }
 }
 
 @app.route('/health')
