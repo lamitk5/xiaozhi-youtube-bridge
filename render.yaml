@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: xiaozhi-youtube-bridge
+    env: docker
+    plan: free
+    region: singapore
+    dockerfilePath: ./Dockerfile
